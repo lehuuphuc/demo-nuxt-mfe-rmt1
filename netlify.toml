@@ -1,0 +1,4 @@
+[[headers]]
+  for = "/_nuxt/*"
+  [headers.values]
+    access-control-allow-origin = "https://demo-ab-nuxt-mfe-host.netlify.app"
