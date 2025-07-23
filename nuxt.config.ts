@@ -10,6 +10,9 @@ export default defineNuxtConfig({
     preset: "netlify-static"
   },
   vite: {
+    build: {
+      target: "ES2022"
+    },
     $client: {
       plugins: [
         topLevelAwait({
